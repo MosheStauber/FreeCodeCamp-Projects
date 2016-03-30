@@ -11,7 +11,7 @@ The order of projects as given by <strong>FreeCodeCamp</strong>:
 
 <li><strong>Random Quote Machine</strong> - Using AJAX to pull a random quote and author from a popular quotes api.</li>
 
-<li>Wikiviewer</strong> - Using the Wikipedia API to emulate Wikipedia's search functionality as well as getting a random page.</li>
+<li><strong>Wikiviewer</strong> - Using the Wikipedia API to emulate Wikipedia's search functionality as well as getting a random page.</li>
 
 <li><strong>Twitch.tv</strong> - Using the Twitch API to show status of subscribed-to Twitch users.</li>
 </ol>
