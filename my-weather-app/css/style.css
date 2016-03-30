@@ -1,0 +1,65 @@
+#page {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: fixed;
+  padding: 0;
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.global-text {
+  color: white;
+  font-family: "Roboto";
+  font-size: 2pc;
+  font-variant: small-caps;
+}
+
+.title-text {
+  font-size: 6pc;
+}
+
+.btn {
+  display: block;
+  color:blue;
+}
+
+#weather-display {
+  height: 150px;  
+  background:#33ffff;
+}
+
+#morning {
+  height: 100%;
+  /*background:linear-gradient(to right, #000033, #ff6600, #ffff00, #33ffff, #33ffff, #33ffff, #33ffff);*/
+  background:url("http://cache4.asset-cache.net/xd/461462512.jpg?v=1&c=IWSAsset&k=2&d=F13A1F9190F009363E5B0D56D31C7169ED9759E7BDCACAA83D41E09155874043D9F32BFE63F5F337") center;
+  
+}
+
+#day {
+  height: 100%;
+  background:url("https://lulustrains.files.wordpress.com/2012/02/small_sky_clouds_30x6.jpg")left;
+}
+
+#night {
+  height: 100%;
+  /*background:linear-gradient(to right, #33ffff, #0099ff, #003d66, #000033);*/
+  background:url("http://il8.picdn.net/shutterstock/videos/13670084/thumb/1.jpg")center;
+}
+
+#day-info {
+  height: 30px;
+  width: 100vw;
+  color:white;
+  margin:10px;
+}
+
+.forecast p {
+  text-decoration: underline;
+}
+
+.forecast span, div {
+  color: white;
+}
+
+
+  

@@ -1,0 +1,32 @@
+#main_page {  
+ width:100vw;
+ height:100vh;
+ overflow:auto;
+ position: fixed;
+ 
+  background:url("http://bgfons.com/upload/ornaments_texture1129.jpg") repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title {
+  color:white;
+  font-size: 5pc;
+  font-family:lobster;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#quote_holder {
+  margin-bottom: 5%;
+}
+
+#quote_text{
+  font-size: 2pc;
+}
+
+#quote_author{
+  font-size: 1.5pc;
+}

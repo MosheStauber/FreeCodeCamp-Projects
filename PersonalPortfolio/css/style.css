@@ -1,0 +1,44 @@
+.section {
+  width:100%;
+  height:1000px;
+  background-size: cover;
+}
+
+#contact {  background:url("http://www.kjjpc.kr/zbxe/files/attach/images/15962/250/040/HighQuality.jpg") no-repeat center center fixed;
+}
+
+#portfolio{  background:url("http://cfile23.uf.tistory.com/image/23377A4D537C399C0C7076") no-repeat center center fixed;
+}
+
+#about {    background:url("http://cfile30.uf.tistory.com/image/257DEC37536812B345D279")no-repeat center center fixed;
+}
+
+#home {  background:url("http://img.mota.ru/upload/wallpapers/source/2009/08/17/10/03/20135/mota_ru_981712.jpg")no-repeat center center fixed;
+}
+
+.project_link {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  border:2px solid black;
+  background-color:white;
+  font-weight:700;
+}
+
+.btn:hover {
+  border:2px solid black;
+  background:rgba(255,255,255,.25)
+}
+
+li {
+  color:white;
+  font-size:1.5pc;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+

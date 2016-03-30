@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  background-color:rgb(0,50,75);
+}
+
+#randomWiki {
+  text-decoration: none;
+  display: inline;
+  color:white;  
+}
+
+#options {
+  padding-top:20%;  
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+.well:hover {
+  background: rgb(255, 150,0);
+}
+

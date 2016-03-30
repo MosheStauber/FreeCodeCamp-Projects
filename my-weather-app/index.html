@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid" id="page">
+  <div id="weather-display" class="row">
+    <div class="col-sm-3" id="morning"></div>
+    <div class="col-sm-6" id="day"></div>
+    <div class="col-sm-3 img-responsive" id="night"></div>
+  </div>
+  <div class="row" id="day-info">
+    <h4 class="col-sm-3 text-left" id="sunrise">Sunrise:</h4>
+    <h4 class="col-sm-5 text-center" id="midday"></h4>
+    <h4 class="col-sm-3 text-right" id="sunset">Sunset:</h4>
+  </div>
+  <p class="global-text title-text text-center">Weather</p>
+  <p class="global-text text-center" id="city-country"></p>
+  <p class="global-text text-center" id="date"></p>
+  <p class="btn global-text text-center" id="temp"></p>
+  <p class="global-text text-center" id="conditions"></p>
+  <div class="row">
+    <div class="col-sm-2 col-sm-offset-2 forecast text-center" id="day1">
+      <p class="global-text">Day1</p>
+      <div class="img-responsive"></div>
+      <span></span>
+    </div>
+    <div class="col-sm-2 forecast text-center" id="day2">
+      <p class="global-text">Day2</p>
+      <div class="img-responsive"></div>
+      <span></span>
+    </div>
+    <div class="col-sm-2 forecast text-center" id="day3">
+      <p class="global-text">Day3</p>
+      <div class="img-responsive"></div>
+      <span></span>
+    </div>
+    <div class="col-sm-2 forecast text-center" id="day4">
+      <p class="global-text">Day4</p>
+      <div class="img-responsive"></div>
+      <span></span>
+    </div>
+  </div>
+  
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

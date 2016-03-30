@@ -1,0 +1,29 @@
+body {
+  background: rgb(50, 255, 255); 
+  padding:5%;
+  margin: 0px;  
+}
+
+#content {
+  width: 50%;
+}
+
+#title {
+  color:white;
+}
+
+button {
+  margin:3px;
+}
+
+button.selected {
+  background: orange;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+.well:hover {
+  background: rgb(255, 150,0);
+}
